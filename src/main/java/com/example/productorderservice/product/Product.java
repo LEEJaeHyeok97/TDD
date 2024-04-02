@@ -1,8 +1,8 @@
-package com.example.productorderservice;
+package com.example.productorderservice.product;
 
 import org.springframework.util.Assert;
 
-class Product {
+public class Product {
     private final String name;
     private final int price;
     private final DiscountPolicy discountPolicy;
